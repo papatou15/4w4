@@ -17,8 +17,9 @@
 <header class="site__header">
     <h1 class="header__titre">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">    
-            <?php bloginfo('name'); ?></h1>
+            <?php bloginfo('name'); ?>
         </a>
+    </h1>
     <h2 class="header__description"><?php bloginfo('description'); ?></h2>
 </header>
 <section class="site__barre">

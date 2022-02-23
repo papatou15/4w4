@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-theme name: lab-4 gr3 eddy martin
+theme name: groupe-1 eddy martin
 Author: Eddy martin
 Author URI: https://github.com/eddytuto
 Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
@@ -410,13 +410,13 @@ a:hover, a:active {
 COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
-  padding: 10px 15px;
   background-color: #d5e6f1;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
 
 .formation {
+  padding: 10px 15px;
   display: flex;
   flex-direction: column;
 }
@@ -492,6 +492,10 @@ COMPOSANTES
   position: absolute;
   transition: transform .3s;
   transform: rotate(0);
+}
+
+#chk-burger {
+  display: none;
 }
 
 #chk-burger:checked ~ #burger {
@@ -574,6 +578,22 @@ COMPOSANTES
   text-align: center;
 }
 
+.erreur-404 {
+  background-color: #b95f85;
+}
+
+.erreur-404 h1 {
+  font-size: 5rem;
+}
+
+.erreur-404 h2 {
+  font-size: 2rem;
+}
+
+.erreur-404 p {
+  font-size: 1rem;
+}
+
 /* ---------------------------------------------------------
 ANIMATION
 --------------------------------------------------------- */
@@ -592,7 +612,27 @@ ANIMATION
   background-color: #1161f7;
   color: #fff;
   font-size: 3rem;
-  animation: anim-entete 1s forwards;
+  transform: translateY(-100vh);
+}
+
+.animation__bloc:nth-of-type(1) {
+  animation: anim-entete 1s 0s forwards;
+}
+
+.animation__bloc:nth-of-type(2) {
+  animation: anim-entete 1s .25s forwards;
+}
+
+.animation__bloc:nth-of-type(3) {
+  animation: anim-entete 1s .5s forwards;
+}
+
+.animation__bloc:nth-of-type(4) {
+  animation: anim-entete 1s .75s forwards;
+}
+
+.animation__bloc:nth-of-type(5) {
+  animation: anim-entete 1s 1s forwards;
 }
 
 @keyframes anim-entete {
