@@ -476,16 +476,28 @@ COMPOSANTES
   background-color: #6faee2;
   color: #fa9292;
   padding-left: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.site__header .header__titre {
+.header__titre {
   font-size: 3em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.site__header .header__description {
+.header__description {
   font-size: 1.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.util {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.util__menu {
+  display: flex;
 }
 
 #burger {
@@ -594,6 +606,14 @@ COMPOSANTES
   font-size: 1rem;
 }
 
+.cours__titre {
+  color: #f00;
+}
+
+.cours section {
+  display: flex;
+}
+
 /* ---------------------------------------------------------
 ANIMATION
 --------------------------------------------------------- */
@@ -668,6 +688,7 @@ theme name: Lab 2 Lemieux Florence
 .site__main {
   grid-area: main;
   background-color: #d5e6f1;
+  padding: 10px 15px 10px 15px;
 }
 
 .site__footer {
@@ -684,8 +705,8 @@ theme name: Lab 2 Lemieux Florence
 
 @media screen and (min-width: 800px) {
   .site {
-    grid-template-columns: 300px auto;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
+    grid-template-columns: auto 300px;
+    grid-template-areas: "header header" " main sidebar" "footer footer";
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -23,6 +23,7 @@ theme name: Lab 2 Lemieux Florence
 .site__main{
     grid-area: main;
     background-color: $color__background-main;
+    padding: 10px 15px 10px 15px;
 }
 
 .site__footer{
@@ -44,10 +45,10 @@ theme name: Lab 2 Lemieux Florence
 @media screen and (min-width : $largeur__media--tablette)
 {
     .site {
-        grid-template-columns: ($size__site-barre) auto;
+        grid-template-columns: auto ($size__site-barre);
         grid-template-areas:
             "header header"
-            "sidebar main"
+            " main sidebar"
             "footer footer";
     }
 }

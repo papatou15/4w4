@@ -12,6 +12,7 @@ wp_nav_menu(array(
                     "menu_class"=>"site__footer__menu__ul",
 
                     "link_before"=>$icone)); ?>
+<?php get_search_form(); ?>
 </footer>
 <?php wp_footer() ?>
 </body>
