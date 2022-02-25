@@ -28,13 +28,24 @@
 .menu-item{
     margin:0;
     padding : 0;
+    li{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
     a{
         display : block;
         text-decoration: none;
         padding : 4px;
         background-color: $color__background-link;
+        transition: all 0.2s ease-in-out;
         &:hover {
             background-color: $color__background-link-hover;
+            
+        }
+        svg{
+            color: black;
         }
     }
 }
