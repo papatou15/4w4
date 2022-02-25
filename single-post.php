@@ -1,10 +1,8 @@
 <?php get_header() ?>
 <main class="site__main">
-
-     <h1>---- single-post.php ------</h1>
      <?php if (have_posts()): the_post(); ?>
           <article class="article">
-               <?php the_title(); ?>
+               <h1><?php the_title(); ?></h1>
                <div class="article_contenu">
                     <?php if (has_post_thumbnail()): ?>
                     <figure class="article_contenu_figure">

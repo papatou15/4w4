@@ -507,6 +507,13 @@ COMPOSANTES
   display: flex;
   flex-direction: column;
   margin-left: auto;
+  justify-content: center;
+}
+
+.site__header .util-lien {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #burger {
@@ -608,10 +615,20 @@ COMPOSANTES
   display: flex;
 }
 
+.recherche {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: auto;
+}
+
 .recherche-input {
   background-color: #e7e7e7;
   border: 2px solid black;
-  border-radius: 15px;
+  border-radius: 10px;
+  width: 200px;
 }
 
 .recherche-button {
@@ -619,11 +636,20 @@ COMPOSANTES
   border: none;
   display: flex;
   flex-direction: row;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 5px;
+}
+
+.recherche-button:hover {
+  cursor: pointer;
 }
 
 .recherche-button svg {
   height: 20px;
   width: 20px;
+  color: black;
 }
 
 /* ---------------------------------------------------------
@@ -650,9 +676,11 @@ ANIMATION
 @keyframes anim-entete {
   0% {
     transform: translateY(-100vh);
+    background-color: transparent;
   }
   100% {
     transform: translateY(0);
+    background-color: blue;
   }
 }
 
