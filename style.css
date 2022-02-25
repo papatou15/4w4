@@ -615,7 +615,7 @@ COMPOSANTES
 }
 
 .site__footer__menu__ul .menu-item a:hover {
-  border-radius: 5px;
+  border-radius: 7px;
   transform: translateY(-5px);
   box-shadow: 0px 10px 0px 0px #630202;
 }
