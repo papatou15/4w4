@@ -1,0 +1,18 @@
+.recherche{
+    &-input{
+        background-color: rgb(231, 231, 231);
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    &-button{
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        svg{
+            height: 20px;
+            width: 20px;
+        }
+    }
+}

@@ -476,6 +476,21 @@ COMPOSANTES
   background-color: #6faee2;
   color: #fa9292;
   padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.site__header svg {
+  color: black;
+}
+
+.site__header h1 {
+  margin: 10px;
+}
+
+.site__header h2 {
+  margin-left: 2em;
 }
 
 .site__header .header__titre {
@@ -488,6 +503,12 @@ COMPOSANTES
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.site__header .util {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
 #burger {
   position: absolute;
   transition: transform .3s;
@@ -496,6 +517,10 @@ COMPOSANTES
 
 #chk-burger:checked ~ #burger {
   transform: rotate(90deg);
+}
+
+#chk-burger {
+  display: none;
 }
 
 .menu-principal-container {
@@ -577,6 +602,28 @@ COMPOSANTES
 .erreur-404 h1 {
   font-size: 5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.article_contenu {
+  display: flex;
+}
+
+.recherche-input {
+  background-color: #e7e7e7;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.recherche-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.recherche-button svg {
+  height: 20px;
+  width: 20px;
 }
 
 /* ---------------------------------------------------------

@@ -2,6 +2,21 @@
     background-color: $color__background-header;
     color: $color__font-header;
     padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+    svg{
+      color: black;
+    }
+
+    h1{
+      margin: 10px;
+    }
+
+    h2{
+      margin-left: 2em;
+    }
 
     .header__titre {
       font-size: 3em;
@@ -10,5 +25,11 @@
     .header__description {
       font-size: 1.5rem;
       font-family: $font__main;
+    }
+
+    .util{
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
     }
   }
