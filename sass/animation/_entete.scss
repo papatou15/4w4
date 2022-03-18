@@ -9,7 +9,7 @@
         width : 100px;
         height : 100px;
         border-radius: 50%;
-        background-color: rgb(17, 97, 247);
+        background-color: $color__background-header;
         color : #fff;
         font-size: 3rem;
         animation : anim-entete 1s forwards;
@@ -18,11 +18,11 @@
 
 @keyframes anim-entete {
     0% {
-      transform : translateY(-100vh);
-      background-color: transparent;
+        transform : translateY(-100vh) scale(0);
+        background-color: transparent;
     }
     100% {
-        transform : translateY(0);
-        background-color: blue;
+        transform : translateY(0) scale(1);
+        background-color: $color__background-header;
     }
 }
