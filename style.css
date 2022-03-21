@@ -573,7 +573,7 @@ COMPOSANTES
 }
 
 .menu-item a:hover {
-  background-color: #811818;
+  background-color: #410c0c;
 }
 
 .menu-item a svg {
@@ -742,7 +742,9 @@ ANIMATION
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #841515;
+  background-image: url(images/rick.gif);
+  background-position: center;
+  background-size: 90%;
   color: #fff;
   font-size: 3rem;
   animation: anim-entete 1.5s forwards;

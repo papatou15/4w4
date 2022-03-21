@@ -9,7 +9,9 @@
         width : 100px;
         height : 100px;
         border-radius: 50%;
-        background-color: $color__background-header;
+        background-image: url(images/rick.gif);
+        background-position: center;
+        background-size: 90%;
         color : #fff;
         font-size: 3rem;
         animation : anim-entete 1.5s forwards;
