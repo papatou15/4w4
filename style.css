@@ -744,7 +744,7 @@ ANIMATION
   background-color: #841515;
   color: #fff;
   font-size: 3rem;
-  animation: anim-entete 1s forwards;
+  animation: anim-entete 1.5s forwards;
 }
 
 @keyframes anim-entete {
@@ -752,9 +752,15 @@ ANIMATION
     transform: translateY(-100vh) scale(0);
     background-color: transparent;
   }
-  100% {
+  50% {
     transform: translateY(0) scale(1);
     background-color: #841515;
+  }
+  75% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 

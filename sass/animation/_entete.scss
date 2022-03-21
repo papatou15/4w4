@@ -12,7 +12,7 @@
         background-color: $color__background-header;
         color : #fff;
         font-size: 3rem;
-        animation : anim-entete 1s forwards;
+        animation : anim-entete 1.5s forwards;
     }
 }
 
@@ -21,8 +21,14 @@
         transform : translateY(-100vh) scale(0);
         background-color: transparent;
     }
-    100% {
+    50% {
         transform : translateY(0) scale(1);
         background-color: $color__background-header;
+    }
+    75%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
     }
 }

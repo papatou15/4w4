@@ -2,11 +2,11 @@
 <main class="site__main">
 
 <section class="animation">
-    <div class="animation__bloc">1</div>
-    <div class="animation__bloc">2</div>
-    <div class="animation__bloc">3</div>
-    <div class="animation__bloc">4</div>
-    <div class="animation__bloc">5</div>
+    <div class="animation__bloc"><iframe width="50" height="50" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="animation__bloc"><iframe width="50" height="50" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="animation__bloc"><iframe width="50" height="50" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="animation__bloc"><iframe width="50" height="50" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="animation__bloc"><iframe width="50" height="50" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </section>
 
     <h1>---- Front-page.php ------</h1>
