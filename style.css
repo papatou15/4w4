@@ -410,6 +410,7 @@ a:hover, a:active {
 COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
+  min-height: 70vh;
   padding: 10px 15px;
   background-color: #f7f7f7;
   border-radius: 5px;
