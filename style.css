@@ -598,49 +598,73 @@ COMPOSANTES
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-grow: 1;
 }
 
-.site__footer__menu {
+.site__footer .footer_content .footer_menu {
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.site__footer__menu__ul {
+.site__footer .footer_content .footer_menu .site__footer__menu__ul {
   display: flex;
   list-style-type: none;
   flex-direction: column;
   justify-content: center;
+  padding: 0;
 }
 
-.site__footer__menu__ul .menu-item a {
+.site__footer .footer_content .footer_menu .site__footer__menu__ul .menu-item {
+  list-style-type: none;
+}
+
+.site__footer .footer_content .footer_menu .site__footer__menu__ul .menu-item a {
   display: flex;
   align-items: center;
   padding: 3px;
   margin: 5px;
-  width: 50%;
   box-sizing: border-box;
+  border: 2px solid #630202;
   transition: all 0.2s ease-in-out;
 }
 
-.site__footer__menu__ul .menu-item a:hover {
+.site__footer .footer_content .footer_menu .site__footer__menu__ul .menu-item a:hover {
   transform: translateY(-5px);
   box-shadow: 0px 10px 0px 0px #630202;
 }
 
-.site__footer__menu__ul .menu-item a svg {
+.site__footer .footer_content .footer_menu .site__footer__menu__ul .menu-item a svg {
   color: #fff0f0;
 }
 
-.site__footer__menu__ul .menu-item a:hover svg {
+.site__footer .footer_content .footer_menu .site__footer__menu__ul .menu-item a:hover svg {
   color: #f1b193;
+}
+
+.site__footer .footer_social {
+  width: 33%;
+  background-color: black;
 }
 
 .site__footer .footer_searchbar {
   margin-left: auto;
   margin-right: auto;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .site__footer .footer_searchbar h3 {
   color: #f0f0f0;
+}
+
+.site__footer__menu {
+  width: 50%;
 }
 
 .footer__titre,

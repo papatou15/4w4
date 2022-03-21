@@ -13,7 +13,7 @@
                                 "link_before"=>$icone)); ?>
         </div>
         <div class="footer_social">
-
+            <?php get_sidebar('footer_social') ?>
         </div>
         <div class="footer_searchbar">
             <h3>Recherchez un article...</h3>

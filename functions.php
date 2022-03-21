@@ -37,6 +37,21 @@ function cidw_4w4_filtre_choix_menu($obj_menu){
     return $obj_menu;
 }
 add_filter("wp_nav_menu_objects","cidw_4w4_filtre_choix_menu");
+
+add_action( 'widgets_init', 'my_register_sidebars' );
+function my_register_sidebars(){
+    register_sidebar(
+        array(
+            'id' => 'footer_social',
+            'name' => __('Liens sociaux'),
+            'description' => __('Liens pour nos différents réseaux sociaux'),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        )
+    );
+}
 /* ---------------------------------------------------------------------- add_theme_suport */
 
 add_action( 'after_setup_theme', 'cidw_4w4_add_theme_support');
