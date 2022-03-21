@@ -16,7 +16,7 @@ theme name: Lab 2 Lemieux Florence
 }
 
 .site__barre{
-    grid-area: sidebar;
+    grid-area: nav;
     background-color: $color__background-barre;
 }
 
@@ -35,7 +35,7 @@ theme name: Lab 2 Lemieux Florence
     gap : 10px;
 	grid-template-columns: auto;
 	grid-template-areas:
-		"sidebar"
+		"nav"
         "header"
 		"main"
 		"footer";
@@ -47,7 +47,7 @@ theme name: Lab 2 Lemieux Florence
         grid-template-columns: ($size__site-barre) auto;
         grid-template-areas:
             "header header"
-            "sidebar main"
+            "nav main"
             "footer footer";
     }
 }

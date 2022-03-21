@@ -38,7 +38,7 @@ function cidw_4w4_filtre_choix_menu($obj_menu){
 }
 add_filter("wp_nav_menu_objects","cidw_4w4_filtre_choix_menu");
 
-add_action( 'widgets_init', 'my_register_sidebars' );
+
 function my_register_sidebars(){
     register_sidebar(
         array(
@@ -52,6 +52,8 @@ function my_register_sidebars(){
         )
     );
 }
+
+add_action( 'widgets_init', 'my_register_sidebars' );
 /* ---------------------------------------------------------------------- add_theme_suport */
 
 add_action( 'after_setup_theme', 'cidw_4w4_add_theme_support');
