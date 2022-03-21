@@ -567,7 +567,7 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: #db2929;
+  background-color: #7c1818;
   transition: all 0.2s ease-in-out;
 }
 
@@ -776,7 +776,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__barre {
   grid-area: nav;
-  background-color: #290505;
+  background-color: #7c1818;
 }
 
 .site__main {
