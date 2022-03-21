@@ -8,7 +8,7 @@
     <p><?php echo wp_trim_words(get_the_content(), 20, "...>"); ?></p>
     <hr>
     <?php endwhile; ?>
-    <?php else : ?><p>Aucun résultat</p>
+    <?php else : ?><p>Aucun résultat ☺</p><iframe width="500" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <?php endif; ?>
 </main>
 <?php get_footer(); ?>
