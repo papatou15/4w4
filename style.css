@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*
-theme name: groupe-02 eddy martin
-Author: Eddy martin
-Author URI: https://github.com/eddytuto
-Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
+theme name: lab #6 Antoine Ridard
+Author: Antoine Ridard
+Author URI: https://github.com/papatou15
+Description: Thème pour le lab #6 et exercice #4 du cours 4w4, disponible ici: https://github.com/papatou15/4w4
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -352,11 +352,11 @@ html {
 ÉLÉMENTS
 --------------------------------------------------------- */
 a {
-  color: #7b5647;
+  color: #ffe5db;
 }
 
 a:visited {
-  color: #5c4033;
+  color: #9d8072;
 }
 
 a:hover, a:focus, a:active {
@@ -379,15 +379,15 @@ a:hover, a:active {
 }
 */
 .header__titre a {
-  color: #1252ca;
+  color: #f06a6a;
 }
 
 .header__titre a:visited {
-  color: #110863;
+  color: white;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
-  color: #333ba3;
+  color: #bc7171;
 }
 
 .header__titre a:focus {
@@ -515,7 +515,7 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #d5e6f1;
+  background-color: #f7f7f7;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
@@ -527,7 +527,7 @@ COMPOSANTES
 
 .formation__titre {
   font-size: 2rem;
-  color: #194dc9;
+  color: #ebcac1;
   margin: 10px 0px;
   font-family: "Montserrat", sans-serif;
 }
@@ -542,7 +542,7 @@ COMPOSANTES
 }
 
 .formation__cours {
-  background-color: #d1e9ff;
+  background-color: #c85656;
   background-position: 97% 3%;
   background-repeat: no-repeat;
   box-shadow: #394044 1px -1px 10px;
@@ -568,7 +568,7 @@ COMPOSANTES
 
 .cours__titre {
   font-size: 1.5rem;
-  color: #194dc9;
+  color: #ebcac1;
   margin: 5px 0px;
 }
 
@@ -585,8 +585,8 @@ COMPOSANTES
 .site__header {
   display: flex;
   flex-direction: column;
-  background-color: #6faee2;
-  color: #355fd1;
+  background-color: #841515;
+  color: #f0f0f0;
 }
 
 @media screen and (min-width: 700px) {
@@ -610,7 +610,7 @@ COMPOSANTES
 .site__header .header__description {
   font-size: clamp(1rem, 2vw, 2rem);
   font-family: "Poppins", sans-serif;
-  color: #355fd1;
+  color: #f0f0f0;
   padding-left: 10px;
 }
 
@@ -827,7 +827,7 @@ Navigation catégorie cours
 
 .site__footer {
   font-family: "Montserrat", sans-serif;
-  background-color: #07143b;
+  background-color: #3b0707;
   padding: 15px;
 }
 
@@ -850,7 +850,7 @@ Navigation catégorie cours
 .footer__titre,
 .footer__presentation,
 .footer__author {
-  color: #0d3ec5;
+  color: #ffcabc;
   text-align: center;
 }
 
@@ -940,7 +940,7 @@ LAYOUT
 theme name: Lab 2 Lemieux Florence
 */
 .site {
-  background-color: #dae0f1;
+  background-color: #f7f7f7;
   font-family: "Poppins", sans-serif;
 }
 
@@ -953,46 +953,46 @@ theme name: Lab 2 Lemieux Florence
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #3d99f0;
+  background-color: #7e0c11;
   clip-path: polygon(95% 0, 100% 0, 100% 100%, 76% 100%);
   z-index: -1;
 }
 
 .site__header {
   grid-area: header;
-  background-color: rgba(111, 174, 226, 0.5);
+  background-color: rgba(132, 21, 21, 0.5);
 }
 
 .site__barre {
   grid-area: sidebar;
-  background-color: #051d29;
+  background-color: #290505;
 }
 
 .site__main {
   grid-area: main;
-  background-color: rgba(213, 230, 241, 0.5);
+  background-color: rgba(247, 247, 247, 0.5);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #07143b;
+  background-color: #3b0707;
 }
 
 .site {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "sidebar" "header" "main" "footer";
+  grid-template-areas: "sidebar" "header" "main" "footer";
 }
 
 @media screen and (min-width: 800px) {
   .site {
     grid-template-columns: 300px auto;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
+    grid-template-areas: "header header" "sidebar main" "footer footer";
   }
   .home {
     display: grid;
     grid-template-columns: auto;
-    grid-template-areas: "sidebar" "header" "main" "footer";
+    grid-template-areas: "sidebar" "header" "main" "footer";
   }
 }
 /*# sourceMappingURL=style.css.map */
