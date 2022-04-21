@@ -1,5 +1,5 @@
 /*
-theme name: groupe-1 eddy martin
+theme name: groupe-02 eddy martin
 Author: Eddy martin
 Author URI: https://github.com/eddytuto
 Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
@@ -26,6 +26,7 @@ INITIALISATION
 ÉLÉMENTS
 --------------------------------------------------------- */
 @import "elements/links";
+@import "elements/balises";
 
 /* ---------------------------------------------------------
 COMPOSANTES
@@ -33,14 +34,18 @@ COMPOSANTES
 @import "composantes/contenu";
 @import "composantes/header";
 @import "composantes/navigation";
+@import "composantes/navigation_accueil";
+@import "composantes/navigation_categorie_cours";
 @import "composantes/footer";
-@import "composantes/erreur_404";
+@import "composantes/404";
+@import "composantes/evenement";
+// @import "composantes/cours";
 @import "composantes/recherche";
-@import "composantes/single-post";
 /* ---------------------------------------------------------
 ANIMATION
 --------------------------------------------------------- */
 @import "animation/entete";
+
 /* ---------------------------------------------------------
 LAYOUT
 --------------------------------------------------------- */

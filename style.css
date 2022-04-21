@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-theme name: groupe-1 eddy martin
+theme name: groupe-02 eddy martin
 Author: Eddy martin
 Author URI: https://github.com/eddytuto
 Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
@@ -16,8 +16,13 @@ VARIABLES
 /* ---------------- BACKGROUND */
 /* ---------------- LIENS */
 /* ---------------- LIENS FOOTER */
+/* ---------------- LIENS DU MENU FOOTER*/
+/* ---------------- LIENS  DU MENU PRINCIPAL*/
 /* ---------------- LIENS HEADER titre principal du site */
 /* ---------------- FONT */
+/* --------------  Bouton / lien menu */
+/* titre principal du site */
+/* titre secondaire */
 /* ------------------------------------- points de rupture des media queries */
 /* ---------------------------------------------------------
 INITIALISATION
@@ -366,36 +371,23 @@ a:hover, a:active {
   outline: 0;
 }
 
-.site__footer a {
-  color: #f40b0b;
+/*
+ .site__footer a{
+	@include links(	$color__link__footer,
+					$color__link__footer-visited, 
+					$color__link__footer-hover );
 }
-
-.site__footer a:visited {
-  color: #1435eb;
-}
-
-.site__footer a:hover, .site__footer a:focus, .site__footer a:active {
-  color: #19e123;
-}
-
-.site__footer a:focus {
-  outline: thin dotted;
-}
-
-.site__footer a:hover, .site__footer a:active {
-  outline: 0;
-}
-
+*/
 .header__titre a {
-  color: #f06a6a;
+  color: #1252ca;
 }
 
 .header__titre a:visited {
-  color: #7a49d4;
+  color: #110863;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
-  color: #8be58f;
+  color: #333ba3;
 }
 
 .header__titre a:focus {
@@ -406,26 +398,138 @@ a:hover, a:active {
   outline: 0;
 }
 
+.site__footer .menu-item a {
+  color: #fff;
+  background-color: #327aaa;
+}
+
+.site__footer .menu-item a svg {
+  color: #fff;
+}
+
+.site__footer .menu-item a:visited {
+  color: #bbb;
+  background-color: #7878ad;
+}
+
+.site__footer .menu-item a:visited svg {
+  color: #bbb;
+}
+
+.site__footer .menu-item a:hover, .site__footer .menu-item a:focus, .site__footer .menu-item a:active {
+  color: #0f0;
+  background-color: #a092c7;
+}
+
+.site__footer .menu-item a:hover svg, .site__footer .menu-item a:focus svg, .site__footer .menu-item a:active svg {
+  color: #0f0;
+}
+
+.site__footer .menu-item a:focus {
+  outline: thin dotted;
+}
+
+.site__footer .menu-item a:hover, .site__footer .menu-item a:active {
+  outline: 0;
+}
+
+.site__barre .menu-item a {
+  color: #fff;
+  background-color: rgba(140, 189, 223, 0.1);
+}
+
+.site__barre .menu-item a svg {
+  color: #fff;
+}
+
+.site__barre .menu-item a:visited {
+  color: #bbb;
+  background-color: #010113;
+}
+
+.site__barre .menu-item a:visited svg {
+  color: #bbb;
+}
+
+.site__barre .menu-item a:hover, .site__barre .menu-item a:focus, .site__barre .menu-item a:active {
+  color: #eeff00;
+  background-color: #29809b;
+}
+
+.site__barre .menu-item a:hover svg, .site__barre .menu-item a:focus svg, .site__barre .menu-item a:active svg {
+  color: #eeff00;
+}
+
+.site__barre .menu-item a:focus {
+  outline: thin dotted;
+}
+
+.site__barre .menu-item a:hover, .site__barre .menu-item a:active {
+  outline: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 8rem);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-size: clamp(0.9rem, 1vw, 1.2rem);
+  font-family: "Poppins", sans-serif;
+}
+
 /* ---------------------------------------------------------
 COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
+  padding: 10px 15px;
   background-color: #d5e6f1;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
 
 .formation {
-  padding: 10px 15px;
   display: flex;
   flex-direction: column;
 }
 
 .formation__titre {
   font-size: 2rem;
-  color: #ebcac1;
+  color: #194dc9;
   margin: 10px 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .formation__liste {
@@ -433,8 +537,14 @@ COMPOSANTES
   flex-wrap: wrap;
 }
 
+.formation__liste .web {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=globe-bold");
+}
+
 .formation__cours {
   background-color: #d1e9ff;
+  background-position: 97% 3%;
+  background-repeat: no-repeat;
   box-shadow: #394044 1px -1px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -458,7 +568,7 @@ COMPOSANTES
 
 .cours__titre {
   font-size: 1.5rem;
-  color: #ebcac1;
+  color: #194dc9;
   margin: 5px 0px;
 }
 
@@ -473,37 +583,58 @@ COMPOSANTES
 }
 
 .site__header {
+  display: flex;
+  flex-direction: column;
   background-color: #6faee2;
-  color: #040629;
-  padding-left: 10px;
+  color: #355fd1;
+}
+
+@media screen and (min-width: 700px) {
+  .site__header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.site__header__titre {
   display: flex;
   align-items: center;
 }
 
-.header__titre {
-  font-size: 3em;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+.site__header .header__titre a {
+  font-size: clamp(2rem, 4vw, 8rem);
+  font-family: "Montserrat", sans-serif;
+  padding-left: 10px;
 }
 
-.header__description {
-  font-size: 1.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.site__header .header__description {
+  font-size: clamp(1rem, 2vw, 2rem);
+  font-family: "Poppins", sans-serif;
+  color: #355fd1;
+  padding-left: 10px;
 }
 
 .util {
-  margin-left: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 90%;
 }
 
-.util__menu {
-  display: flex;
+@media screen and (min-width: 700px) {
+  .util {
+    margin-left: auto;
+    width: 350px;
+  }
 }
 
 #burger {
   position: absolute;
   transition: transform .3s;
   transform: rotate(0);
+  z-index: 99;
+  left: 10px;
+  top: 30px;
 }
 
 #chk-burger {
@@ -526,6 +657,7 @@ COMPOSANTES
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-top: 40px;
 }
 
 .menu-item {
@@ -537,27 +669,142 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: #8293e3;
-}
-
-.menu-item a:hover {
-  background-color: #2832b8;
 }
 
 @media screen and (min-width: 800px) {
-  #burger {
+  .site #burger {
     display: none;
   }
-  .menu-principal-container {
+  .site .menu-principal-container {
     display: block;
+  }
+  /* ----------------------------------------- */
+  .home #burger {
+    display: block;
+  }
+  .home .menu-principal-container {
+    display: none;
   }
 }
 
+.menu-accueil-container .menu,
+.menu-evenement-container .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-accueil-container .menu .accueil__cours .menu-item-icone,
+.menu-evenement-container .menu .accueil__cours .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
+}
+
+.menu-accueil-container .menu .menu-item,
+.menu-evenement-container .menu .menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6286c8;
+  flex: 0 0 20%;
+  height: 175px;
+}
+
+.menu-accueil-container .menu .menu-item a,
+.menu-evenement-container .menu .menu-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: clamp(1rem, 2vw, 2.2rem);
+  color: #ffe600;
+  height: 100%;
+}
+
+.menu-accueil-container .menu .menu-item a .menu-item-description,
+.menu-evenement-container .menu .menu-item a .menu-item-description {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.menu-accueil-container .menu .menu-item a .menu-item-icone,
+.menu-evenement-container .menu .menu-item a .menu-item-icone {
+  border: 1px solid #aaa;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: auto;
+}
+
+/* -------------------------------------------------
+Navigation catégorie cours
+---------------------------------------------------- */
+.menu-categorie_cours-container .menu {
+  display: flex;
+}
+
+.menu-categorie_cours-container .menu .menu-item {
+  margin: 0 10px;
+  background-color: #6286c8;
+}
+
+.menu-categorie_cours-container .menu .menu-item a {
+  color: #ffe600;
+}
+
+.menu-categorie_cours-container .menu .menu-item:hover {
+  background-color: #0c5cf0;
+}
+
+.menu-categorie_cours-container .menu .menu-item:hover a {
+  color: #ebd40d;
+}
+
+.menu-categorie_cours-container .menu .current-menu-item {
+  background-color: #06193d;
+}
+
+.menu-categorie_cours-container .menu .current-menu-item a {
+  color: #f3e98e;
+}
+
+/*
+<footer class="site__footer">
+    <!-- première rangé de colonne -->
+    <div class="site__footer__colonne">
+        <section class="footer__article">
+            <h2>Titre 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti soluta vitae excepturi exercitationem dicta unde doloremque quisquam suscipit dolores nisi quos, quia expedita, reprehenderit illo commodi error tenetur quidem.</p>
+        </section>
+        <section class="footer__adresse">
+            jjkjk jkjk jkb jkbjk bjk bjk bkbjk j
+        </section>
+        <sectio
+         class="footer__liens">
+        <?php w
+        _nav_menu(array(
+               
+        "menu"=>"externe")); ?>
+        </secti
+        n>
+    </div>
+    <!-- sectio
+     de plusieurs lignes -->
+    <div class=
+    site__footer__ligne">
+        <sectio
+         class="footer__description"></section>
+        <sectio
+         class="footer__nav"></section>
+        <sectio
+         class="copyright"></section>
+        <sectio
+         class="footer__auteur"></section>
+    </div>
+*/
 .site__footer {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color: #07143b;
-  color: #f1f2f8;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .site__footer__colonne {
@@ -568,7 +815,7 @@ COMPOSANTES
 .site__footer__colonne section {
   display: flex;
   flex-direction: column;
-  border: 1px solid #aaa;
+  border: 1px solid #ddd;
   flex: 0 0 30%;
 }
 
@@ -578,69 +825,82 @@ COMPOSANTES
   align-items: center;
 }
 
-.site__footer__ligne .footer__menu__nav__ul {
+.site__footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #07143b;
+  padding: 15px;
+}
+
+.site__footer__menu__ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
 }
 
-.site__footer__ligne .footer__menu__nav__ul .menu-item {
+.site__footer__menu__ul .menu-item {
   margin: 10px 5px;
 }
 
-.site__footer__ligne .footer__menu__nav__ul .menu-item a {
+.site__footer__menu__ul .menu-item a {
   display: flex;
   align-items: center;
   padding: 3px;
 }
 
-.site__footer__ligne .footer__menu__nav__ul .menu-item a svg {
-  color: #f40b0b;
-}
-
-.site__footer__ligne .footer__menu__nav__ul .menu-item a:hover svg {
-  color: #19e123;
-}
-
-/*
-
-.site__footer {
-    font-family: $font__titre;
-    background-color: $color__background-footer;
-    padding: 15px;
-
-
-  }
-
 .footer__titre,
 .footer__presentation,
 .footer__author {
-  color: $color__font-footer;
+  color: #0d3ec5;
   text-align: center;
-}
-*/
-.erreur-404 {
-  background-color: #b95f85;
 }
 
 .erreur-404 h1 {
   font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
-.erreur-404 h2 {
-  font-size: 2rem;
+.evenement__resume {
+  background-color: #8cbccf;
 }
 
-.erreur-404 p {
-  font-size: 1rem;
+.recherche {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: relative;
 }
 
-.cours__titre {
-  color: #f00;
+.recherche__input {
+  background-color: transparent;
+  width: 100%;
+  transition: background-color .25s;
+  border: none;
+  outline: none;
 }
 
-.cours section {
+.recherche__input:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.recherche__bouton {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recherche__bouton svg {
+  color: #000;
+}
+
+.wp_recherche .wp-block-search__button {
+  background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=search");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0;
+  width: 30px;
+  height: 35px;
 }
 
 /* ---------------------------------------------------------
@@ -661,27 +921,7 @@ ANIMATION
   background-color: #1161f7;
   color: #fff;
   font-size: 3rem;
-  transform: translateY(-100vh);
-}
-
-.animation__bloc:nth-of-type(1) {
-  animation: anim-entete 1s 0s forwards;
-}
-
-.animation__bloc:nth-of-type(2) {
-  animation: anim-entete 1s .25s forwards;
-}
-
-.animation__bloc:nth-of-type(3) {
-  animation: anim-entete 1s .5s forwards;
-}
-
-.animation__bloc:nth-of-type(4) {
-  animation: anim-entete 1s .75s forwards;
-}
-
-.animation__bloc:nth-of-type(5) {
-  animation: anim-entete 1s 1s forwards;
+  animation: anim-entete 1s forwards;
 }
 
 @keyframes anim-entete {
@@ -701,12 +941,26 @@ theme name: Lab 2 Lemieux Florence
 */
 .site {
   background-color: #dae0f1;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3d99f0;
+  clip-path: polygon(95% 0, 100% 0, 100% 100%, 76% 100%);
+  z-index: -1;
 }
 
 .site__header {
   grid-area: header;
-  background-color: #6faee2;
+  background-color: rgba(111, 174, 226, 0.5);
 }
 
 .site__barre {
@@ -716,8 +970,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__main {
   grid-area: main;
-  background-color: #d5e6f1;
-  padding: 10px 15px 10px 15px;
+  background-color: rgba(213, 230, 241, 0.5);
 }
 
 .site__footer {
@@ -727,15 +980,19 @@ theme name: Lab 2 Lemieux Florence
 
 .site {
   display: grid;
-  gap: 10px;
   grid-template-columns: auto;
   grid-template-areas: "sidebar" "header" "main" "footer";
 }
 
 @media screen and (min-width: 800px) {
   .site {
-    grid-template-columns: auto 300px;
-    grid-template-areas: "header header" " main sidebar" "footer footer";
+    grid-template-columns: 300px auto;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+  }
+  .home {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "sidebar" "header" "main" "footer";
   }
 }
 /*# sourceMappingURL=style.css.map */

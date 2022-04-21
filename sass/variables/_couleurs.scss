@@ -1,5 +1,6 @@
 /* ---------------- BACKGROUND */
 $color__background-body : hsl(224, 44%, 90%);
+$color__background-body-clip : hsl(209, 86%, 59%);
 $color__background-main : hsl(204, 49%, 89%);
 $color__background-cours : hsl(209, 100%, 91%);
 $color__background-header : hsl(207, 66%, 66%);
@@ -7,8 +8,6 @@ $color__background-barre : hsl(200, 78%, 9%);
 $color__background-footer : hsl(225, 78%, 13%);
 $color__background-link : hsl(229, 64%, 70%);
 $color__background-link-hover : hsl(236, 64%, 44%);
-
-$color__background-404 : hsl(335, 39%, 55%);
 
 /* ---------------- LIENS */
 $color__link : hsl(18, 27%, 38%);
@@ -18,15 +17,37 @@ $color__link-visited : hsl(19, 29%, 28%);
 $color__link__footer : hsl(0, 91%, 50%);
 $color__link__footer-hover : hsl(123, 80%, 49%);
 $color__link__footer-visited : hsl(231, 84%, 50%);
+/* ---------------- LIENS DU MENU FOOTER*/
+$color__link__footer__menu : #fff;
+$color__link__footer__menu-visited: #bbb;
+$color__link__footer__menu-hover:#0f0;
+$background__link__footer__menu: rgb(50, 122, 170);
+$background__link__footer__menu-visited: rgb(120, 120, 173); 
+$background__link__footer__menu-hover: rgb(160, 146, 199);
+/* ---------------- LIENS  DU MENU PRINCIPAL*/
+$color__link__principal__menu : #fff;
+$color__link__principal__menu-visited: #bbb;
+$color__link__principal__menu-hover:rgb(238, 255, 0);
+$background__link__principal__menu: rgba(rgb(140, 189, 223),.1);
+$background__link__principal__menu-visited: rgb(1, 1, 19); 
+$background__link__principal__menu-hover: rgb(41, 128, 155);
+
 /* ---------------- LIENS HEADER titre principal du site */
-$color__link__header : hsl(0, 82%, 68%);
-$color__link__header-hover : hsl(123, 63%, 72%);
-$color__link__header-visited : hsl(261, 62%, 56%);
+$color__link__header : hsl(219, 84%, 43%);
+$color__link__header-hover : hsl(236, 52%, 42%);
+$color__link__header-visited : hsl(246, 85%, 21%);
 
 /* ---------------- FONT */
-$color__font-header : rgb(4, 6, 41);
-$color__font-main :rgb(235, 202, 193);
-$color__font-barre : rgb(255, 255, 255);
-$color__font-footer : rgb(241, 242, 248);
+$color__font-header : rgb(53, 95, 209);
+$color__font-main :rgb(25, 77, 201);
+$color__font-barre : rgb(90, 116, 187);
+$color__font-footer : rgb(13, 62, 197);
 
 
+/* --------------  Bouton / lien menu */
+$color__bouton__color : rgb(255, 230, 0);
+$color__bouton__background : rgb(98, 134, 200);
+$color__bouton__color--hover :rgb(235, 212, 13);
+$color__bouton__background--hover :rgb(12, 92, 240);
+$color__bouton__color--current : rgb(243, 233, 142);
+$color__bouton__background--current : rgb(6, 25, 61);
