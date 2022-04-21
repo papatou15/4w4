@@ -1,22 +1,23 @@
 /* ---------------- BACKGROUND */
-$color__background-body : hsl(224, 44%, 90%);
-$color__background-body-clip : hsl(209, 86%, 59%);
-$color__background-main : hsl(204, 49%, 89%);
-$color__background-cours : hsl(209, 100%, 91%);
-$color__background-header : hsl(207, 66%, 66%);
-$color__background-barre : hsl(200, 78%, 9%);
-$color__background-footer : hsl(225, 78%, 13%);
-$color__background-link : hsl(229, 64%, 70%);
-$color__background-link-hover : hsl(236, 64%, 44%);
+$color__background-body-clip : hsl(357, 83%, 27%);
+$color__background-body : hsl(0, 0%, 97%);
+$color__background-main : hsl(0, 0%, 97%);
+$color__background-cours : hsl(0, 51%, 56%);
+$color__background-header : hsl(0, 73%, 30%);
+$color__background-barre : hsl(0, 78%, 9%);
+$color__background-footer : hsl(0, 79%, 13%);
+$color__background-link : hsl(0, 71%, 51%);
+$color__background-link-hover : hsl(0, 68%, 30%);
 
 /* ---------------- LIENS */
-$color__link : hsl(18, 27%, 38%);
+$color__link : hsl(17, 100%, 93%);
 $color__link-hover : hsl(0, 0%, 100%);
-$color__link-visited : hsl(19, 29%, 28%);
+$color__link-visited : hsl(20, 18%, 53%);
 /* ---------------- LIENS FOOTER */
-$color__link__footer : hsl(0, 91%, 50%);
-$color__link__footer-hover : hsl(123, 80%, 49%);
-$color__link__footer-visited : hsl(231, 84%, 50%);
+$color__link__footer : hsl(0, 100%, 97%);
+$color__link__footer-hover : hsl(19, 77%, 76%);
+$color__link__footer-visited : hsl(0, 30%, 67%);
+$color__link__footer-border: rgb(99, 2, 2);
 /* ---------------- LIENS DU MENU FOOTER*/
 $color__link__footer__menu : #fff;
 $color__link__footer__menu-visited: #bbb;
@@ -33,15 +34,15 @@ $background__link__principal__menu-visited: rgb(1, 1, 19);
 $background__link__principal__menu-hover: rgb(41, 128, 155);
 
 /* ---------------- LIENS HEADER titre principal du site */
-$color__link__header : hsl(219, 84%, 43%);
-$color__link__header-hover : hsl(236, 52%, 42%);
-$color__link__header-visited : hsl(246, 85%, 21%);
+$color__link__header : hsl(0, 82%, 68%);
+$color__link__header-hover : hsl(0, 36%, 59%);
+$color__link__header-visited : hsl(0, 0%, 100%);
 
 /* ---------------- FONT */
-$color__font-header : rgb(53, 95, 209);
-$color__font-main :rgb(25, 77, 201);
-$color__font-barre : rgb(90, 116, 187);
-$color__font-footer : rgb(13, 62, 197);
+$color__font-header : rgb(240, 240, 240);
+$color__font-main :rgb(235, 202, 193);
+$color__font-barre : rgb(255, 255, 255);
+$color__font-footer : rgb(255, 202, 188);
 
 
 /* --------------  Bouton / lien menu */
