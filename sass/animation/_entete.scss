@@ -9,7 +9,7 @@
         width : 100px;
         height : 100px;
         border-radius: 50%;
-        background-image: url(images/rick.gif);
+        background-image: url("images/rick.gif");
         background-position: center;
         background-size: 90%;
         color : #fff;
@@ -32,5 +32,6 @@
     }
     100%{
         transform: scale(1);
+        background-color: $color__background-header;
     }
 }
