@@ -17,13 +17,8 @@
    <?php 
    /* --------------------------------------------- menu evenement */
    wp_nav_menu(array("menu"=>"evenement",
-                            "container"=>"nav")); ?>
-
-   <?php if (have_posts()): the_post(); ?>
-        <?php the_title() ?>
-        <?php the_content() ?>   
-  
-   <?php endif ?>
+                            "container"=>"nav",
+                            "menu_class"=>"menu-evenement")); ?>
    
 </main>
 <?php get_footer() ?>

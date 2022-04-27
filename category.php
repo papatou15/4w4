@@ -2,8 +2,8 @@
 <main class="site__main">
     <h1>---- category.php  ----</h1>
     <section class="formation">
-<a href="?cletri=title&ordre=asc">Tri ascendant</a>
-<a href="?cletri=title&ordre=desc">Tri descendant</a>
+<a href="?cletri=title&ordre=asc" class="formation-tri">Tri ascendant</a>
+<a href="?cletri=title&ordre=desc" class="formation-tri">Tri descendant</a>
 <?php  wp_nav_menu(array(
             "menu"=>"categorie_cours",
             "container" => "nav"));  ?>

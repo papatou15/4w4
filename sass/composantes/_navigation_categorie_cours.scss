@@ -4,8 +4,14 @@ Navigation catégorie cours
 .menu-categorie_cours-container {  // nav
     .menu {   // ul
             display : flex;
+            flex-wrap: wrap;
             .menu-item { // li
-                margin : 0 10px;
+                margin : 5px;
+                width: 30%;
+                height: 150px;
+                border: 3px solid $color__bouton__background__border;
+                border-radius: 5px;
+                transition: all 0.2s ease-in-out;
             
                 background-color: $color__bouton__background;
                 a{

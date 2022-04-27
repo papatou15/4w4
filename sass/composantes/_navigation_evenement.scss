@@ -1,0 +1,13 @@
+.menu-evenement{
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        li{
+            a{
+                color: $color__font-darkred;
+            }
+        }
+    }
+}

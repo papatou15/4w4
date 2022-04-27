@@ -2,7 +2,7 @@
 $color__background-body-clip : hsl(357, 83%, 27%);
 $color__background-body : hsl(0, 0%, 97%);
 $color__background-main : hsl(0, 0%, 97%);
-$color__background-cours : hsl(0, 51%, 56%);
+$color__background-cours : rgb(125, 10, 24);
 $color__background-header : hsl(0, 73%, 30%);
 $color__background-barre : hsl(0, 78%, 9%);
 $color__background-footer : hsl(0, 79%, 13%);
@@ -21,10 +21,10 @@ $color__link__footer-border: rgb(99, 2, 2);
 /* ---------------- LIENS DU MENU FOOTER*/
 $color__link__footer__menu : #fff;
 $color__link__footer__menu-visited: #bbb;
-$color__link__footer__menu-hover:#0f0;
-$background__link__footer__menu: rgb(50, 122, 170);
-$background__link__footer__menu-visited: rgb(120, 120, 173); 
-$background__link__footer__menu-hover: rgb(160, 146, 199);
+$color__link__footer__menu-hover:rgb(255, 255, 255);
+$background__link__footer__menu: rgb(125, 10, 24);
+$background__link__footer__menu-visited: rgb(92, 4, 4); 
+$background__link__footer__menu-hover: rgb(100, 4, 4);
 /* ---------------- LIENS  DU MENU PRINCIPAL*/
 $color__link__principal__menu : #fff;
 $color__link__principal__menu-visited: #bbb;
@@ -43,12 +43,15 @@ $color__font-header : rgb(240, 240, 240);
 $color__font-main :rgb(235, 202, 193);
 $color__font-barre : rgb(255, 255, 255);
 $color__font-footer : rgb(255, 202, 188);
+$color__font-darkred : rgb(90, 4, 4);
+$color__font-darkred-hover : rgb(60, 4, 4);
 
 
 /* --------------  Bouton / lien menu */
-$color__bouton__color : rgb(255, 230, 0);
-$color__bouton__background : rgb(98, 134, 200);
-$color__bouton__color--hover :rgb(235, 212, 13);
-$color__bouton__background--hover :rgb(12, 92, 240);
-$color__bouton__color--current : rgb(243, 233, 142);
-$color__bouton__background--current : rgb(6, 25, 61);
+$color__bouton__color : rgb(226, 226, 226);
+$color__bouton__background : rgb(125, 10, 24);
+$color__bouton__color--hover :rgb(255, 255, 255);
+$color__bouton__background--hover :rgb(100, 4, 4);
+$color__bouton__color--current : rgb(255, 255, 255);
+$color__bouton__background--current : rgb(100, 4, 4);
+$color__bouton__background__border: rgb(61, 0, 0);
