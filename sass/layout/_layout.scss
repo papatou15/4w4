@@ -32,6 +32,7 @@
 .site__main{
     grid-area: main;
     background-color: rgba($color__background-main,.5);
+    display: flex;
 }
 
 .site__footer{
