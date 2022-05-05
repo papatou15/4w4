@@ -1,9 +1,11 @@
 .galerie{
     @media screen and(min-width : $largeur__media--mobile) {
-        width: 75%;
+        width: 80%;
+        flex-direction: row;
     }
-    width: 90%;
+    width: 95%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 }
