@@ -38,13 +38,13 @@ wp_nav_menu(array(
                     <?php get_search_form(); ?>
 </footer>
     <div class="boite__modale">
-        <button class="boite__modale__fermeture">X</button>
+        <button class="boite__modale__fermeture"><svg width="33" height="33" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" color="#fff"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></button>
         <article class="boite__modale__texte">
             Ceci est un premier test de boîte modale
         </article>
     </div>
     <div class="boite__carrousel">
-        <button class="boite__carrousel__fermeture">X</button>
+        <button class="boite__carrousel__fermeture"><svg width="33" height="33" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" color="#fff"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></button>
         <section class="boite__carrousel__navigation"></section>
     </div>
     <?php wp_footer(); ?>
