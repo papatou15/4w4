@@ -26,9 +26,8 @@ function cidw_4w4_enqueue(){
                         filemtime(get_template_directory() . '/javascript/boite-modale.js'),
                         true); // true pour intégrer le js en bas du document
 
-    if(is_category('cours')){
-        wp_enqueue_script('cidw-4w4-boite-modale');
-    }
+    wp_enqueue_script('cidw-4w4-boite-modale');
+    
 
     wp_register_script('cidw-4w4-carrousel',
                         get_template_directory_uri() . '/javascript/carrousel.js',

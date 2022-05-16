@@ -565,26 +565,32 @@ COMPOSANTES
 
 .formation__liste .web {
   background-image: url("https://s2.svgbox.net/octicons.svg?ic=globe-bold");
+  background-size: 10%;
 }
 
 .formation__liste .jeu {
   background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=puzzle");
+  background-size: 10%;
 }
 
 .formation__liste .design {
   background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=template");
+  background-size: 10%;
 }
 
 .formation__liste .creation-3d {
   background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=cube");
+  background-size: 10%;
 }
 
 .formation__liste .utilitaire {
   background-image: url("https://s2.svgbox.net/octicons.svg?ic=gear");
+  background-size: 10%;
 }
 
 .formation__liste .video {
   background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=video-camera");
+  background-size: 10%;
 }
 
 .formation__cours {
@@ -953,8 +959,29 @@ Navigation catégorie cours
   color: #ccc;
 }
 
+.boite__modale__texte, .boite__carrousel__texte {
+  color: white;
+  font-size: 1.3em;
+  padding: 20px;
+  padding-right: 80px;
+}
+
 .ouvrir {
   transform: scale(1);
+}
+
+.cours__desc__ouvrir {
+  border: 2px solid #3d0000;
+  border-radius: 5px;
+  background-color: #7d0a18;
+  color: #e2e2e2;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cours__desc__ouvrir:hover {
+  background-color: #640404;
 }
 
 .boite__carrousel {

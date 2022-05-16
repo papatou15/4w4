@@ -1,6 +1,5 @@
 <?php get_header() ?>
 <main class="site__main">
-    <h1>---- category.php  ----</h1>
     <section class="formation">
 <a href="?cletri=title&ordre=asc" class="formation-tri">Tri ascendant</a>
 <a href="?cletri=title&ordre=desc" class="formation-tri">Tri descendant</a>

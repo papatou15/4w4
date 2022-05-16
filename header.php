@@ -13,11 +13,26 @@
     <?php show_admin_bar(true); ?>
     <style>
         .home::after{
-            background-color: <?= get_theme_mod("background_clip_path"); ?>; 
+            background-color: <?= get_theme_mod("background_clip_path"); ?>; ;
         }
 
         .site__main{
-            background-color: <?= get_theme_mod("background_body"); ?>
+            background-color: <?= get_theme_mod("background_body"); ?>;
+        }
+
+        .menu-categorie_cours-container .menu .menu-item,
+        .menu-evenement ul li,
+        .site__footer__menu__ul .menu-item,
+        .cours__desc__ouvrir{
+            background-color: <?= get_theme_mod("bouton_background"); ?>;
+            border: 3px solid <?= get_theme_mod("bouton_border"); ?>;
+        }
+
+        .menu-categorie_cours-container .menu .menu-item:hover,
+        .menu-evenement ul li:hover,
+        .site__footer__menu__ul .menu-item:hover,
+        .cours__desc__ouvrir:hover{
+            background-color: <?= get_theme_mod("bouton_background_hover"); ?>;
         }
     </style>
 </head>
