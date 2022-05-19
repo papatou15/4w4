@@ -1100,6 +1100,7 @@ Navigation catégorie cours
 
 .menu-menu_ateliers-container .menu-atelier .menu-item:hover {
   background-color: #640404;
+  background-position: center 50%;
 }
 
 .menu-menu_ateliers-container .menu-atelier .menu-item a {
@@ -1109,10 +1110,38 @@ Navigation catégorie cours
   text-align: center;
 }
 
+.menu-menu_ateliers-container .menu-atelier .menu-item-179 {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=html");
+  background-size: 10%;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+}
+
+.menu-menu_ateliers-container .menu-atelier .menu-item-180 {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=css");
+  background-size: 10%;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+}
+
+.menu-menu_ateliers-container .menu-atelier .menu-item-181 {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=reactjs");
+  background-size: 10%;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+}
+
+.menu-menu_ateliers-container .menu-atelier .menu-item-189 {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=git");
+  background-size: 10%;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+}
+
 .atelier {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 40%;
 }
 
 .atelier__info {
