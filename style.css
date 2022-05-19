@@ -1115,8 +1115,18 @@ Navigation catégorie cours
   width: 60%;
 }
 
+.atelier__info {
+  padding: 25px;
+  border: 3px solid #3d0000;
+  border-radius: 5px;
+}
+
 .atelier__description {
-  font-size: 2.2em;
+  font-size: 2.2rem;
+}
+
+.atelier__animateur {
+  font-size: 1.5em;
 }
 
 .atelier__date__container {
