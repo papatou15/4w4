@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*
-theme name: lab #6 Antoine Ridard
+theme name: Exam Final Antoine Ridard
 Author: Antoine Ridard
 Author URI: https://github.com/papatou15
-Description: Thème pour le lab #6 et exercice #4 du cours 4w4, disponible ici: https://github.com/papatou15/4w4
+Description: Thème pour l'examen final du cours 4w4, disponible ici: https://github.com/papatou15/4w4
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -1110,28 +1110,28 @@ Navigation catégorie cours
   text-align: center;
 }
 
-.menu-menu_ateliers-container .menu-atelier .menu-item-179 {
+.menu-menu_ateliers-container .menu-atelier .menu-item:nth-of-type(1) {
   background-image: url("https://s2.svgbox.net/files.svg?ic=html");
   background-size: 10%;
   background-position: center 80%;
   background-repeat: no-repeat;
 }
 
-.menu-menu_ateliers-container .menu-atelier .menu-item-180 {
+.menu-menu_ateliers-container .menu-atelier .menu-item:nth-of-type(2) {
   background-image: url("https://s2.svgbox.net/files.svg?ic=css");
   background-size: 10%;
   background-position: center 80%;
   background-repeat: no-repeat;
 }
 
-.menu-menu_ateliers-container .menu-atelier .menu-item-181 {
+.menu-menu_ateliers-container .menu-atelier .menu-item:nth-of-type(3) {
   background-image: url("https://s2.svgbox.net/files.svg?ic=reactjs");
   background-size: 10%;
   background-position: center 80%;
   background-repeat: no-repeat;
 }
 
-.menu-menu_ateliers-container .menu-atelier .menu-item-189 {
+.menu-menu_ateliers-container .menu-atelier .menu-item:nth-of-type(4) {
   background-image: url("https://s2.svgbox.net/files.svg?ic=git");
   background-size: 10%;
   background-position: center 80%;
