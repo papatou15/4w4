@@ -1066,6 +1066,93 @@ Navigation catégorie cours
   text-align: center;
 }
 
+.menu-menu_ateliers-container {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-menu_ateliers-container .menu-atelier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 90%;
+  padding: 0;
+  margin: auto;
+}
+
+.menu-menu_ateliers-container .menu-atelier .menu-item {
+  width: 30%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7d0a18;
+  border-radius: 5px;
+  border: 3px solid #3d0000;
+  margin: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-menu_ateliers-container .menu-atelier .menu-item:hover {
+  background-color: #640404;
+}
+
+.menu-menu_ateliers-container .menu-atelier .menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.atelier {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.atelier__description {
+  font-size: 2.2em;
+}
+
+.atelier__date__container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.atelier__date__debut {
+  width: 50%;
+  text-align: center;
+}
+
+.atelier__date__fin {
+  width: 50%;
+  text-align: center;
+}
+
+.atelier__heure__container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.atelier__heure__debut {
+  width: 50%;
+  text-align: center;
+}
+
+.atelier__heure__fin {
+  width: 50%;
+  text-align: center;
+}
+
 .recherche {
   background-color: rgba(0, 0, 0, 0.1);
   width: 300px;

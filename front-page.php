@@ -16,8 +16,9 @@
                             "container"=>"nav",
                             "menu_class"=>"menu-evenement")); ?>
 
+    <h1>Nos ateliers</h1>
     <?php
-        wp_nav_menu(array("menu"=>"atelier",
+        wp_nav_menu(array("menu"=>"menu_ateliers",
                                 "container"=>"nav",
                                 "menu_class"=>"menu-atelier"));
     ?>

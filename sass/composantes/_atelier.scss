@@ -1,0 +1,47 @@
+.atelier{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    &__description{
+        font-size: 2.2em;
+    }
+
+    &__date{
+        &__container{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            justify-content: flex-start;
+        }
+        
+        &__debut{
+            width: 50%;
+            text-align: center;
+        }
+
+        &__fin{
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    &__heure{
+        &__container{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            justify-content: flex-start;
+        }
+        
+        &__debut{
+            width: 50%;
+            text-align: center;
+        }
+
+        &__fin{
+            width: 50%;
+            text-align: center;
+        }
+    }
+}

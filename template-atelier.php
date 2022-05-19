@@ -16,25 +16,30 @@
                <?php the_field('description'); ?>
           </section>
           <p class="atelier__animateur">
-          <?php the_field('animateur'); ?>
+          Animée par: <?php the_field('animateur'); ?>
           </p>
-          <p class="atelier__date__debut">
-          <?php the_field('date_de_debut_de_latelier'); ?>
-          </p>
-          <p class="atelier__date__fin">
-          <?php the_field('date_de_fin_de_latelier'); ?>
-          </p>
-          <p class="atelier__heure__debut">
-          <?php the_field('heure_de_debut'); ?>
-          </p>
-          <p class="atelier__heure__fin">
-          <?php the_field('heure_de_fin'); ?>
-          </p>
+          <div class="atelier__date__container">
+            <p class="atelier__date__debut">
+            Du: <?php the_field('date_de_debut_de_latelier'); ?>
+            </p>
+            <p class="atelier__date__fin">
+            Au: <?php the_field('date_de_fin_de_latelier'); ?>
+            </p>
+          </div>
+          <div class="atelier__heure__container">
+            <p class="atelier__heure__debut">
+            De: <?php the_field('heure_de_debut'); ?>
+            </p>
+            <p class="atelier__heure__fin">
+            Jusqu'à: <?php the_field('heure_de_fin'); ?>
+            </p>
+          </div>
+          
           <p class="atelier__duree__seance">
-          <?php the_field('duree_dune-seance-datelier'); ?>
+          Durée d'une séance: <?php the_field('duree_dune-seance-datelier'); ?>H
           </p>
           <p class="atelier__local">
-          <?php the_field('local'); ?>
+          Au local <?php the_field('local'); ?>
           </p>
      </article>
      <?php endif ?>
